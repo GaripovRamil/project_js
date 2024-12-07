@@ -1,11 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1 class="wrapper__text1">Contact list</h1>
+      <a
+        href="https://github.com/GaripovRamil/project_js"
+        class="repository"
+        target="_blank"
+        >Repository link</a
+      >
+      <div class="input">
+        <label for="username">Введите имя</label>
+        <input
+          class="input1"
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Name"
+          required
+        />
+
+        <label for="vacancy">Вакансия</label>
+        <input
+          class="input2"
+          type="text"
+          id="vacancy"
+          name="vacancy"
+          placeholder="Vacancy"
+          required
+        />
+
+        <label for="phone">Номер телефона</label>
+        <input
+          class="input3"
+          type="text"
+          id="phone"
+          name="phone"
+          placeholder="Phone +X XXX XXX XX XX"
+          required
+        />
+      </div>
+      <div class="button">
+        <button class="btn1" type="button">
+          <span>ADD</span>
+        </button>
+
+        <button class="btn2" type="button">
+          <span>Clear List</span>
+        </button>
+
+        <button class="btn3" type="button">
+          <span>Search</span>
+        </button>
+      </div>
+    </div>
+  </body>
 </html>
